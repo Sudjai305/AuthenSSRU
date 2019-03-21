@@ -77,6 +77,12 @@ class RegisterViewController: UIViewController {
         
     }   //myAlert
     
+    func uploadData(name:String, user: String, password: String) -> Void {
+        
+        let urlString: String = "https://www.androidthai.in.th/snru/addDataNam.php?isAdd=true&Name=\(name)&User=\(user)&Password=\(password)"
+        
+    }
+    
     
     @IBAction func backButton(_ sender: UIBarButtonItem) {
         
