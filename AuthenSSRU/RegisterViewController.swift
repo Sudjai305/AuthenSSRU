@@ -10,6 +10,9 @@ import UIKit
 
 class RegisterViewController: UIViewController {
 
+    //  My Outlet
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
