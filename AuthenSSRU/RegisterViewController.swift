@@ -41,9 +41,14 @@ class RegisterViewController: UIViewController {
         
         
         let name = nameTextField.text!
+        let user = userTextField.text!
+        let password = oasswordTextField.text!
+        
         
         
         print("name = \(name)")
+        print("user=\(user)")
+        print("password=\(password)")
         
 
     }
