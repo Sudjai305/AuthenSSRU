@@ -17,6 +17,14 @@ class RegisterViewController: UIViewController {
     }   // Main Method
     
     
+    @IBAction func uploadButton(_ sender: UIBarButtonItem) {
+        
+        
+        
+        print("You Click Upload")
+    }
+    
+    
     @IBAction func backButton(_ sender: UIBarButtonItem) {
         
         print("You Click Back")
