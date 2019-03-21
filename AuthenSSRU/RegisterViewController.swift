@@ -64,7 +64,18 @@ class RegisterViewController: UIViewController {
         
         
         print("title =\(titleString),  message =\(messagegeString)")
-    }
+        let alert = UIAlertController(title: titleString, message: messagegeString, preferredStyle: UIAlertController.Style.alert)
+        
+        
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+        }))
+        
+      present(alert,animated: true,completion: nil)
+        
+        
+        
+    }   //myAlert
     
     
     @IBAction func backButton(_ sender: UIBarButtonItem) {
